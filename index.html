@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#09070b">
+<title>Sweek — A Little Magic</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=IM+Fell+English:ital@0;1&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="locked">
+<div class="stars"></div>
+<div class="magic-particles" id="magicParticles"></div>
+<div class="unlock-flash" id="unlockFlash"></div>
+<div class="mist mist-a"></div><div class="mist mist-b"></div>
+
+<header class="topbar">
+  <div class="brand-mark">✦</div>
+  <div class="brand">OUR STORY</div>
+  <div class="top-note">A BIRTHDAY SPECIAL</div>
+</header>
+
+<main id="experience" aria-hidden="true">
+
+<section class="hero" id="home">
+  <div class="castle-glow"></div>
+  <div class="candles candles-left">✦　│　✦　│　✦</div>
+  <div class="candles candles-right">✦　│　✦　│　✦</div>
+
+  <div class="hero-layout">
+    <div class="hero-letter">
+      <div class="letter-inner">
+        <div class="crest-mini">✦</div>
+        <div class="school">HOGWARTS SCHOOL<br><span>OF WITCHCRAFT &amp; WIZARDRY</span></div>
+        <div class="letter-rule"></div>
+        <h1>A Special Birthday<br><em>Communication</em></h1>
+        <p class="to">To: <span>Sweek</span></p>
+        <p class="letter-tease">A little magic has been brewed,<br>and a few memories are waiting just for you.</p>
+        <div class="wax-seal">✦<small>SS</small>✦</div>
+      </div>
+    </div>
+
+    <div class="unlock-card">
+      <div class="wand-light"></div>
+      <p class="eyebrow">THE UNLOCKING CHARM</p>
+      <h2>Speak the charm.</h2>
+      <p class="unlock-copy">Only the right word can open the rest of this little world.</p>
+      <label for="spell">Password</label>
+      <div class="spell-wrap">
+        <input id="spell" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="type the charm…" />
+        <button id="unlockBtn" class="gold-btn">Enter Spell</button>
+      </div>
+      <p id="unlockMessage" class="unlock-message" aria-live="polite"></p>
+      <p class="hint">Hint: the most famous unlocking charm.</p>
+    </div>
+  </div>
+
+  <div class="scroll-cue">✦ <span>your story is waiting below</span> ✦</div>
+</section>
+
+<section class="section parchment-section reveal-section" id="letter">
+  <div class="section-heading">
+    <span>✦</span><h2>Dear Sweek,</h2><span>✦</span>
+  </div>
+  <article class="letter-copy">
+    <p>There are some things that are difficult to put into a gift box.</p>
+    <p>Years of memories. Dinners. Birthday Parties. Long drives. Terrace conversations. Laughing at things that probably weren't even that funny.</p>
+    <p>There are memories I can still picture without needing a photograph, and photographs that somehow bring an entire day back.</p>
+    <p>So I decided to put a few of them somewhere else.</p>
+    <p>Somewhere you can come back to whenever you want.</p>
+    <p><strong>Because this isn't really a birthday website.</strong><br>It's a little piece of our story.</p>
+    <div class="signature">— From someone who is very glad he met you</div>
+  </article>
+</section>
+
+<section class="section story-section reveal-section" id="journey">
+  <div class="section-heading"><span>✦</span><h2>The Pages We Wrote</h2><span>✦</span></div>
+  <p class="section-intro">No forced chronology. No year labels. Just the moments that stayed.</p>
+
+  <div class="memory-grid">
+    <article class="memory-card wide">
+      <img src="assets/photo01.jpeg" alt="One of our earliest photographs">
+      <div class="memory-overlay"><span>The first pages</span><h3>And then there was us.</h3><p>Somewhere in school, two people met. The rest followed.</p></div>
+    </article>
+
+    <article class="memory-card">
+      <img src="assets/photo03.jpeg" alt="A birthday memory">
+      <div class="memory-overlay"><span>A birthday memory</span><h3>One of the first birthdays.</h3><p>A photograph from a time when all of this was only beginning.</p></div>
+    </article>
+
+    <article class="memory-card">
+      <img src="assets/photo04.jpeg" alt="A happy memory together">
+      <div class="memory-overlay"><span>One photograph. One memory.</span><h3>That song.</h3><p>We danced to <em>Perfect</em>. There isn't a video — and somehow, one photo is enough.</p></div>
+    </article>
+
+    <article class="memory-card">
+      <img src="assets/photo10.jpeg" alt="A Navratri memory">
+      <div class="memory-overlay"><span>Showing up</span><h3>Navratri nights.</h3><p>I didn't even dance. I still came just to watch you enjoy yourself.</p></div>
+    </article>
+
+    <article class="memory-card">
+      <img src="assets/photo07.jpeg" alt="A night together">
+      <div class="memory-overlay"><span>Little nights</span><h3>The ordinary magic.</h3><p>The kind of evenings that never looked important while they were happening.</p></div>
+    </article>
+
+    <article class="memory-card wide">
+      <img src="assets/photo14.jpeg" alt="A recent memory together">
+      <div class="memory-overlay"><span>Still us</span><h3>Different chapters. Same story.</h3><p>More cities, more distance, more life happening.</p></div>
+    </article>
+  </div>
+</section>
+
+<section class="section gallery-section reveal-section" id="gallery">
+  <div class="section-heading"><span>✦</span><h2>The Moving Portraits</h2><span>✦</span></div>
+  <p class="section-intro">A little archive of the two people who kept showing up in each other's lives.</p>
+  <div class="gallery">
+    <figure><img src="assets/photo02.jpeg" alt="Memory"><figcaption>Somewhere along the way</figcaption></figure>
+    <figure><img src="assets/photo05.jpeg" alt="Memory"><figcaption>Laughs included</figcaption></figure>
+    <figure><img src="assets/photo06.jpeg" alt="Memory"><figcaption>Growing up together</figcaption></figure>
+    <figure><img src="assets/photo08.jpeg" alt="Memory"><figcaption>Terrace conversations</figcaption></figure>
+    <figure><img src="assets/photo09.jpeg" alt="Memory"><figcaption>Just us</figcaption></figure>
+    <figure><img src="assets/photo11.jpeg" alt="Memory"><figcaption>Birthday days</figcaption></figure>
+    <figure><img src="assets/photo12.jpeg" alt="Memory"><figcaption>More little moments</figcaption></figure>
+    <figure><img src="assets/photo13.jpeg" alt="Memory"><figcaption>And then, more memories</figcaption></figure>
+    <figure><img src="assets/photo15.jpeg" alt="Memory"><figcaption>Still smiling</figcaption></figure>
+  </div>
+</section>
+
+<section class="section traits-section reveal-section" id="traits">
+  <div class="section-heading"><span>✦</span><h2>Things I Love About You</h2><span>✦</span></div>
+  <p class="section-intro">If I had to put your personality into a few little magical ingredients…</p>
+  <div class="traits-grid">
+    <button class="trait" data-title="Truth" data-text="You're true and upfront. Nothing about you feels rehearsed. You say what you think, and you mean it."><b>01</b><span>Truth</span><small>always upfront</small></button>
+    <button class="trait" data-title="Courage" data-text="You're brave. You don't let people or circumstances hold you back from being yourself."><b>02</b><span>Courage</span><small>nothing holds you back</small></button>
+    <button class="trait" data-title="Chaos" data-text="You're genuinely hilarious. Your sense of humour is so specific that sometimes even I need a second to understand what just happened."><b>03</b><span>Chaos</span><small>in the best way</small></button>
+    <button class="trait" data-title="Mischief" data-text="There is a wonderfully childish, playful side to you. It makes life more fun."><b>04</b><span>Mischief</span><small>fun &amp; childish</small></button>
+    <button class="trait" data-title="Presence" data-text="Everyone enjoys your company. You can talk to almost anyone and make a conversation happen."><b>05</b><span>Presence</span><small>people gravitate to you</small></button>
+    <button class="trait" data-title="Wisdom" data-text="You're intelligent emotionally and otherwise — smart, perceptive, and thoughtful."><b>06</b><span>Wisdom</span><small>smart in every way</small></button>
+    <button class="trait" data-title="Care" data-text="You help others before yourself. You care deeply, even when you don't make a big deal of it."><b>07</b><span>Care</span><small>others before self</small></button>
+    <button class="trait" data-title="Growth" data-text="You helped me become a better version of myself. That is one of the things I will always be grateful for."><b>08</b><span>Growth</span><small>you changed me for the better</small></button>
+  </div>
+</section>
+
+<section class="section sorting-section reveal-section" id="sorting">
+  <div class="sorting-stage">
+    <div class="hat-column">
+      <img id="sortingHat" src="assets/sorting-hat.png" alt="The Sorting Hat">
+    </div>
+    <div class="sorting-copy">
+      <p class="eyebrow">THE SORTING CEREMONY</p>
+      <h2 id="sortingTitle">Let the Hat decide…</h2>
+      <div id="sortingText" class="sorting-lines">
+        <p>Hmmmm…</p><p>Honest…</p><p>Fearless…</p><p>Slightly chaotic…</p>
+        <p>Extremely talkative…</p><p>Brave…</p><p>Caring…</p><p>Not afraid to be yourself…</p>
+        <p>Yes… I know exactly where you belong.</p>
+      </div>
+      <button class="gold-btn" id="sortBtn">SORT ME ✨</button>
+      <p class="sorting-note">The Hat has made its decision.</p>
+    </div>
+    <div class="house-column" id="houseReveal" aria-hidden="true">
+      <img src="assets/gryffindor.png" alt="Gryffindor crest">
+      <h3>GRYFFINDOR</h3>
+      <p>Because you have the courage to be completely yourself.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section distance-section reveal-section" id="distance">
+  <div class="distance-card">
+    <p class="eyebrow">THE MAP CHANGED</p>
+    <h2>And then came the distance.</h2>
+    <div class="route"><span>Us</span><i></i><i></i><i></i><i></i><span>Different cities</span><i></i><i></i><i></i><i></i><span>Even farther away</span></div>
+    <p>From 2022 onwards, cities changed. And now in 2026, the distance has grown again.</p>
+    <p>It means more planning, fewer spontaneous moments, and more missing each other.</p>
+    <p class="gold-text">But distance changes geography. It doesn't have to change the story.</p>
+  </div>
+</section>
+
+<section class="section gifts-section reveal-section" id="gifts">
+  <div class="gift-box">
+    <div class="gift-lid">✦ A LITTLE SOMETHING ✦</div>
+    <div class="gift-body">
+      <div class="gift-seal">✦</div>
+      <h2>The Room of Requirement</h2>
+      <p>Some gifts are things you can hold. Some are things you can keep.</p>
+      <p class="small-note">The Room of Requirement tried its best.<br>
+      Unfortunately, even magic couldn't fix the delivery time. ✨📦</p>
+    </div>
+  </div>
+</section>
+
+<section class="final-section reveal-section" id="final">
+  <div class="final-letter">
+    <p class="eyebrow">TO BE CONTINUED</p>
+<h2>Happy Birthday, Sweek. ❤️</h2>
+
+<p>Some stories are written in books.</p>
+
+<p>
+  Ours was written in thousands of little moments — the laughter, the
+  ridiculous conversations, the random dinners, the birthdays, the
+  long drives, and the late-night conversations where I would inevitably
+  doze off somewhere in the middle.
+</p>
+
+<p>
+  From the two kids who met back in 2015 to everything we've become
+  since... somehow, through all these years and all these changes,
+  you're still one of my favourite parts of my life.
+</p>
+
+<p>
+  You've seen me grow, you've called me out when I needed it, you've
+  made me laugh when I didn't feel like laughing, and you've helped me
+  become a better version of myself without even trying to.
+</p>
+
+<p>
+  And now, after all these years, distance has become another chapter
+  of our story. Different cities, different routines, and a little
+  more distance between us — but none of that changes how much you
+  mean to me.
+</p>
+
+<p>
+  I miss the ordinary things the most. The random plans. Sitting
+  together and talking about absolutely everything. Celebrating
+  birthdays. Just being around you without needing a reason.
+</p>
+
+<p>
+  But if there's one thing I've learnt from us, it's that the best
+  memories were never really about where we were. They were about
+  <i>who I was with.</i>
+</p>
+
+<p>
+  So here's to everything we've already written, everything we're
+  still figuring out, and all the moments that haven't happened yet.
+</p>
+
+<p>
+  And somehow, we're still writing it.
+</p>
+
+<p class="gold-text big">More chapters to come. ✨</p>
+
+<div class="signature">
+  Mischief Managed ✨
+</div>
+
+<button class="mischief-btn" id="mischiefBtn" type="button">✦ MISCHIEF MANAGED ✦</button>
+  </div>
+
+  <div class="close-sparks" id="closeSparks" aria-hidden="true"></div>
+  <div class="closing-core" id="closingCore" aria-hidden="true"></div>
+  <p class="final-line" id="finalLine">
+    The story isn't over. Not even close. ❤️
+  </p>
+</section>
+
+</main>
+
+<div class="modal" id="modal" aria-hidden="true">
+  <div class="modal-backdrop"></div>
+  <div class="modal-card">
+    <button class="modal-close" id="modalClose">×</button>
+    <p class="eyebrow" id="modalEyebrow">A LITTLE SOMETHING</p>
+    <h2 id="modalTitle"></h2>
+    <p id="modalText"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
